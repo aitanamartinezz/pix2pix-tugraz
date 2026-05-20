@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Checkpoints — only keep folder structure, not actual weights
+checkpoints/**/*.pth
+checkpoints/**/*.pt
+
+# Data — do not commit the full dataset
+data/
+
+# Archives
+*.zip
+*.tar.gz
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+
+# Output images
+output/
+
+# PDF
+*.pdf
